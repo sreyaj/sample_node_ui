@@ -10,4 +10,4 @@ build:
   ci:
     - ps -eax
     - ls -al
-    - sleep 60m
+    - sleep 95m
