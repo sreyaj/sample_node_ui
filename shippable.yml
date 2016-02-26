@@ -11,4 +11,4 @@ build:
     - ps -eax
     - ls -al
     
-  archive: true
+archive: true
