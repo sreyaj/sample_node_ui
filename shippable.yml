@@ -4,15 +4,6 @@ language: node_js
 # Version number
 node_js:
   - 0.12
-  - 0.10.25
-  - 0.11
-  
-env:
-  - FOO=boo
-  - BOO=roo
-  - ROO=uoo
-  - UOO=yoo
-  - YOO=zoo
 
 build:
 
@@ -20,3 +11,4 @@ build:
     - ps -eax
     - ls -al
     
+  archive: true
