@@ -4,6 +4,12 @@ language: node_js
 # Version number
 node_js:
   - 0.12
+  - 0.10.25
+  - 5
+  
+env:
+  - FOO=goo
+  - GOO=foo
 
 build:
 
