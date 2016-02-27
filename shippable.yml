@@ -17,3 +17,18 @@ build:
     - ps -eax
     - ls -al
     #PR
+    
+integrations:
+  hub:
+    - integrationName: ship-docker
+      type: docker
+  notifications:
+    - integrationName: email
+      type: email
+      recipients: 
+        - shiphitchcock1@gmail.com
+        #- varsha@shippable.com
+      on_start: always
+      on_success: always
+      on_failure: always
+      
