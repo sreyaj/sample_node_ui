@@ -20,7 +20,7 @@ build:
     
 integrations:
   hub:
-    - integrationName: ship-dockerpr
+    - integrationName: ship-docker
       type: docker
   notifications:
     - integrationName: email
